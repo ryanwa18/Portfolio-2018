@@ -1,0 +1,17 @@
+nav#primarynav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav#primarynav li {
+    float: left;
+}
+
+nav#primarynav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
