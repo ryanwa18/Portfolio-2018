@@ -113,7 +113,7 @@ p {
 header {
     display: flex;
     flex-direction: row;
-    padding: 3em;
+    padding: 2.5em;
 }
 
 header h1 {
@@ -325,6 +325,7 @@ section#contact h2 {
 footer {
     text-align: center;
     color: #b9b9b9;
+    padding: 1em;
 }
 
 @media only screen and (min-width: 768px) {
