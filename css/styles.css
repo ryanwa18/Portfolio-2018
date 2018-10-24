@@ -352,6 +352,10 @@ footer {
         float: left;
     }
 
+    ul#nav-list {
+        display: none !important;
+    }
+
     section#about, section#featured-work, section#services, section#testimonial, section#contact {
         margin: 0;
         padding: 5em 0;
