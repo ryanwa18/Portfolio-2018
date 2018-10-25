@@ -11,6 +11,8 @@
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
   <link rel="stylesheet" href="css/animate.css?v=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/brands.css" integrity="sha384-Px1uYmw7+bCkOsNAiAV5nxGKJ0Ixn5nChyW8lCK1Li1ic9nbO5pC/iXaq27X5ENt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/fontawesome.css" integrity="sha384-BzCy2fixOYd0HObpx3GMefNqdbA7Qjcc91RgYeDjrHTIEXqiF00jKvgQG0+zY/7I" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700" rel="stylesheet">
 
 </head>
@@ -18,7 +20,7 @@
 <body>
   <div class="container">
       <header class="animated slideInDown">
-        <h1><a href="index.html">Ryan Ward</a></h1>
+        <div id="logo"><img src="./images/profile.jpg"><h1><a href="index.html">Ryan Ward</a></h1></div>
         <nav id="primarynav">
         <ul style="display: none;">
             <li>
@@ -41,6 +43,7 @@
             <div class="bar3"></div>
         </a>
       </header>
+      <img id="mobile-img" class="animated bounceInRight" src="./images/profile.jpg">
       <ul id="nav-list" style="display: none;">
             <li>
                 <a href="work/index.html">Work</a>
@@ -160,7 +163,7 @@
         <div class="cta"><a href="#">Get in Touch</a></div>
       </section>
       <footer id="main-footer">
-        <p>Developed & Designed by Ryan Ward &copy 2018</p>
+        <p>Developed & Designed by Ryan Ward &copy 2018</p><div id="icons"><i class="fab fa-github fa-2x"></i><i class="fab fa-linkedin-in fa-2x"></i></div>
       </footer>
   </div>
   <script src="js/scripts.js"></script>
